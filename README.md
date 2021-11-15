@@ -2,7 +2,7 @@
 
 This repo is an example of a Kubernetes Operator built using [Quarkus](https://quarkus.io/).
 
-[Link to the article]()
+[Link to the article](https://www.linkedin.com/pulse/azure-resources-operator-quarkus-geoffrey-muselli/?published=t)
 
 ## Prerequisites
 
