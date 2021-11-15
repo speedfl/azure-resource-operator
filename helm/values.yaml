@@ -1,0 +1,5 @@
+region: westeurope
+
+image:
+  name: speedfl/azure-resource-operator:1.0.0-SNAPSHOT
+  registry: null

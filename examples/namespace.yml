@@ -1,0 +1,12 @@
+apiVersion: org.speedfl.io/v1alpha1
+kind: ServiceBusNamespace
+metadata:
+  name: azure-demo-sbns
+spec:
+  resourceGroupName: AzureDemoResourceGroup
+  name: AzureDemoServiceBusNamespace
+  location: westeurope
+  sku: 
+    name: Standard
+    tier: Standard
+    capacity: 2

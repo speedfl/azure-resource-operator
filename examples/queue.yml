@@ -1,0 +1,10 @@
+apiVersion: org.speedfl.io/v1alpha1
+kind: ServiceBusQueue
+metadata:
+  name: azure-demo-sbq
+spec:
+  resourceGroupName: AzureDemoResourceGroup
+  namespaceName: AzureDemoServiceBusNamespace
+  name: AzureDemoServiceBusQueue
+  properties:
+    enablePartitioning: true

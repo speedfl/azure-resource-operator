@@ -1,0 +1,9 @@
+apiVersion: org.speedfl.io/v1alpha1
+kind: ResourceGroup
+metadata:
+  name: azure-demo-rg
+spec:
+  name: AzureDemoResourceGroup
+  location: westeurope
+  tags:
+    tag1: value1
